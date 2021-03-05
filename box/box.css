@@ -1,0 +1,14 @@
+.box1 {
+  height: 300px;
+  width: 300px;
+  background-color: #ff0000;
+}
+
+.box2 {
+  height: 100px;
+  width: 100px;
+  background-color: blue;
+  border-bottom-width: 7px;
+  border-bottom-style: dashed;
+  border-bottom-color: yellow;
+}
