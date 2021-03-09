@@ -37,6 +37,7 @@ header .heading {
 .social i {
   display: inline-block;
   margin-left: 20px;
+  color: black;
 }
 
 .nav-list {
@@ -229,4 +230,23 @@ footer {
 
 .footer-text {
   color: #fff;
+}
+
+@media screen and (max-width: 425px) {
+  header {
+    width: 100%;
+  }
+
+  .nav-list {
+    width: 100%;
+  }
+
+  .nav-list-item {
+    width: 100%;
+    margin: 0 0 10px 0;
+  }
+
+  .social {
+    display: none;
+  }
 }
